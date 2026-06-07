@@ -38,3 +38,20 @@ void OnDeinit(const int reason)
 {
    Engine.Shutdown();
 }
+
+void OnTick()
+{
+   if(!Risk.CanTrade())
+      return;
+
+   Dashboard.Update();
+
+   int signal = Strategy.GetSignal();
+
+   if(signal == 0)
+      return;
+
+   Print("Signal detected: ", signal);
+
+   // sementara hanya log dulu (belum execute real trade)
+}
