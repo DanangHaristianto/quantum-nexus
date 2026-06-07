@@ -1,0 +1,13 @@
+# License States
+
+ACTIVE
+
+EXPIRED
+
+INVALID
+
+SUSPENDED
+
+TRIAL
+
+PENDING
