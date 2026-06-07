@@ -1,0 +1,22 @@
+{
+  "project": "Quantum Nexus",
+  "version": "1.0.0",
+
+  "risk": {
+    "risk_per_trade": 1,
+    "daily_dd": 5,
+    "weekly_dd": 10,
+    "monthly_dd": 20
+  },
+
+  "symbols": [
+    "XAUUSD",
+    "BTCUSD",
+    "ETHUSD",
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "NAS100",
+    "US30"
+  ]
+}
